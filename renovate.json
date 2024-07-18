@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "groupName": "all dependencies",
+      "groupSlug": "all-dependencies",
+      "schedule": ["at any time"]
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
+  "dependencyDashboard": true
+}
+
